@@ -29,7 +29,8 @@ public class Drivetrain
 	
 	public double capMotorSpeed(double speed)
 	{
-		double cappedSpeed = 0.6;
+		// Edit capped speed if doing a demo near other people, especially if kids drive.
+		double cappedSpeed = 1;
 		if(speed < -cappedSpeed)
 			return -cappedSpeed;
 		if(speed > cappedSpeed)

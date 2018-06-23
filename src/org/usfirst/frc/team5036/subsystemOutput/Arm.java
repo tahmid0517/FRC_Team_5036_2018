@@ -27,14 +27,6 @@ public class Arm
 	
 	public void driveArm(double output)
 	{
-		if(output < -0.5)
-		{
-			output = -0.5;
-		}
-		else if(output > 0.5)
-		{
-			output = 0.5;
-		}
 		cim1.set(ControlMode.PercentOutput,output);
 		cim2.set(ControlMode.PercentOutput, -output);
 		SmartDashboard.putNumber("Arm 1", cim1.getMotorOutputPercent());
