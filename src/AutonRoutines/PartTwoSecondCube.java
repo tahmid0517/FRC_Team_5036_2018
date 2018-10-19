@@ -51,7 +51,7 @@ public class PartTwoSecondCube
 			double ARM_ANGLE_1 = 60;
 			double TURN_1 = 45; // This is the angle at which the robot turns after driving backward away from the switch.
 			double DISTANCE_1 = -74;
-			double TURN_2 = -45; // This is the angle that the robot turns when driving backward to pick up the second cube
+			double TURN_2 = -45; // This is the angle that the robot turns after driving backward the first time.
 			double ARM_MOVE_1 = 30;
 			double ARM_MOVE_2 = 0;
 			double DISTANCE_2 = 35; // This is the distance the robot drives to pick up the second cube
