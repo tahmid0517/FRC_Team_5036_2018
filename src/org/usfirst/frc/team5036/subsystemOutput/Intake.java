@@ -32,7 +32,7 @@ public class Intake
 	
 	public void runIntake(double power)
 	{
-		power *= 0.5;
+
 		intake1.set(ControlMode.PercentOutput,power);
 		intake2.set(ControlMode.PercentOutput,power);
 	}
