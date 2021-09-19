@@ -4,3 +4,7 @@ the Durham College event, we won the Innovation in Control Award for our impleme
 also went on to qualify for the World Championships for a 2nd straight year.
 
 You can view our team's season recap here: https://www.youtube.com/watch?v=G0j4sCxDgBo
+
+If you're reading this in 2021 and got here from my resume, keep in mind that I was in 12th grade when I wrote this so it is obviously pretty trash.
+I also prioritized writing the code and pushing it to the robot quickly to be able to have as much time as possible for our driver to practice with
+the robot. Some stuff was also done quickly at competitions.
